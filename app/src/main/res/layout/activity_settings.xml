@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.fatma.forumenetcom.SettingsActivity"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+
+
+        <include layout="@layout/app_bar_layout"
+            android:id="@+id/settings_toolbar" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/Affich_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="username"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:gravity="center"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+
+
+
+
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+
+    <Button
+        android:id="@+id/generate_qr"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_register"
+        android:text="Generate QR Code"
+        android:textColor="#ffffff" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <ImageView
+        android:id="@+id/qr_image"
+        android:layout_width="300dp"
+        android:layout_height="300dp" />
+
+    </LinearLayout>
+

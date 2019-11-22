@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.fatma.forumenetcom">
+    <item
+        android:id="@+id/Account_Settings"
+        android:orderInCategory="100"
+        android:title="Account Settings"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/All_users"
+        android:orderInCategory="101"
+        android:title="All users" />
+    <item
+        android:id="@+id/Contact_id"
+        android:orderInCategory="101"
+        android:title="About" />
+    <item
+        android:id="@+id/MembreLogOut"
+        android:orderInCategory="102"
+        android:title="Log out"
+        app:showAsAction="collapseActionView" />
+</menu>

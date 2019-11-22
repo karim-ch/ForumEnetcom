@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backround_register"
+        android:orientation="vertical"
+        android:weightSum="100"
+        android:id="@+id/activity_contact"
+
+        android:gravity="center"
+    tools:context="com.example.fatma.forumenetcom.ContactActivity">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="This application was developed by :"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="@string/names" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="23"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="To report security or privacy issues , please contact :"/>
+
+
+
+
+
+        <TextView
+            android:id="@+id/testView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12"
+            android:background="#1a2076"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.02"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.07"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:src="@drawable/phone"
+                android:layout_gravity="center"/>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.02"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:fontFamily="Helvetica Neue Light"
+                android:gravity="center"
+                android:text="Phone"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.59"
+                android:fontFamily="Helvetica Neue Light"
+                android:gravity="center"
+                android:text="+216 50 908 829"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12"
+            android:background="#1a2076"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.02"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.07"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:src="@drawable/email"
+                android:layout_gravity="center"/>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.02"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:fontFamily="Helvetica Neue Light"
+                android:gravity="center"
+                android:text="Email"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.59"
+                android:fontFamily="Helvetica Neue Light"
+                android:gravity="center"
+                android:text="chaari.karim.plus@gmail.com"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="19"/>
+
+        <Button
+            android:gravity="center"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:background="@drawable/button_register"
+            android:textColor="#fff"
+            android:id="@+id/returnBtn"/>
+
+    </LinearLayout>
